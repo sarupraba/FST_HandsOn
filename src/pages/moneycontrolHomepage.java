@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 
 public class moneycontrolHomepage {
     public By alertpopup = By.xpath("//div[@class='wzrk-alert wiz-show-animate']");
+    public By noThanks_btn = By.xpath("//div[@class='wzrk-alert wiz-show-animate']//button[@class='No thanks']");
     public By userLink_xpath = By.xpath("//a[@class='userlink']");
     public By iframe_id = By.id("myframe");
     public By login_xpath = By.xpath("//a[@title=\"Log In\"]");

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.67 sec <<< FAILURE! - in TestSuite
+loginToMoneyControl_withValidCreds(sampleTests.UseCase1)  Time elapsed: 8.508 sec  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'WIN-C4CR381923N', ip: '192.168.43.121', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\002K80~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55319}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 86cf4493fa753075dbe6f7587efab7ff
+	at sampleTests.UseCase1.loginToMoneyControl_withValidCreds(UseCase1.java:27)
+
