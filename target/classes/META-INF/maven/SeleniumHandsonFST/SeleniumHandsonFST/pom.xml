@@ -11,8 +11,11 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.8.1</version>
         <configuration>
-          <release>16</release>
-        </configuration>
+				<suiteXmlFiles>
+				<!-- TestNG suite XML files -->
+					<suiteXmlFile>testng.xml</suiteXmlFile>
+				</suiteXmlFiles>
+			</configuration>
       </plugin>
     </plugins>
   </build>
